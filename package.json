@@ -1,0 +1,22 @@
+{
+  "name": "tradeorderserver",
+  "version": "1.0.0",
+  "description": "Trade Order Rest API (in NodeJS)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Follansbee",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.13",
+    "node-schedule": "^1.3.2",
+    "nodemon": "^2.0.1",
+    "request": "^2.88.0",
+    "sync-request": "^6.1.0"
+  }
+}
